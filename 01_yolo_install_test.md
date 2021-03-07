@@ -13,3 +13,6 @@
 - `python yolo_video.py --image` 這樣就可以開始辨識
     - 不過要先安裝: `pip install matplotlib`
 
+## 測試影片
+- python yolo_video.py --input videos/traffic.mp4 --output videos/traffic_p.mp4
+- 不帶`--output`參數就不會輸出影片結果
